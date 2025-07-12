@@ -1,0 +1,78 @@
+/* ===== GLOBAL ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* ===== HERO SECTION ===== */
+#hero {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#hero .btn {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+}
+
+/* ===== FEATURES ===== */
+#features .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#features .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== TESTIMONIAL ===== */
+#testimonial img {
+  border: 4px solid #0d6efd;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* ===== PRICING ===== */
+#pricing .card {
+  border-radius: 12px;
+}
+
+#pricing .card:hover {
+  border: 2px solid #0d6efd;
+  transition: border 0.3s ease;
+}
+
+#pricing .card-header {
+  font-weight: 600;
+}
+
+#pricing .card-title {
+  font-size: 2.2rem;
+}
+
+#pricing .btn {
+  font-size: 1rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #fff;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #adb5bd;
+}
